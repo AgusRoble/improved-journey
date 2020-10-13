@@ -5,7 +5,7 @@ def checkIfPrimo(num):
 	return sum([1 for i in range(2, num-1) if num%i == 0])==0
 
 print("Verificador de numeros primos\n-------------------")
-nombre = input("Ingrese su nombre!! ")
+nombre = input("Ingrese su nombre, humano")
 nombre = nombre[0].upper() + nombre[1:]
 print("Bienvenido" + nombre + "!")
 
